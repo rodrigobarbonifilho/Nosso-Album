@@ -14,7 +14,7 @@ export default function Container(props) {
                 <BackArrow
                     onClick={() => {
                         window.scroll({
-                            left: window.innerWidth * (props.imageIndex - 1),
+                            left: window.screen.width * (props.imageIndex - 1),
                             behavior: "smooth",
                         });
                     }}
@@ -29,7 +29,7 @@ export default function Container(props) {
                 <NextArrow
                     onClick={() => {
                         window.scroll({
-                            left: window.innerWidth * (props.imageIndex + 1),
+                            left: window.screen.width * (props.imageIndex + 1),
                             behavior: "smooth",
                         });
                     }}
