@@ -29,4 +29,20 @@ export const HomeStyled = styled.div`
     width: 100vw;
     height: 100vh;
     background-color: #d4d4d4;
+
+    button {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        padding: 16px 24px;
+        background-color: black;
+        border-radius: 12px;
+        color: white;
+        cursor: pointer;
+        transition: opacity 100ms ease-in;
+
+        &:active {
+            opacity: .4;
+        }
+    }
 `;

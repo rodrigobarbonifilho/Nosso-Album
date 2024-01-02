@@ -5,6 +5,7 @@ import { useState } from "react";
 
 export default function Home() {
     const [imageSelected, setImageSelected] = useState(0);
+
     return (
         <HomeStyled>
             <StyledCarrousel
