@@ -1,14 +1,16 @@
 {
-    "000": "Foto1.jpeg",
-    "001": "Foto10.jpeg",
-    "002": "Foto11.jpeg",
-    "003": "Foto12.jpeg",
-    "004": "Foto2.jpeg",
-    "005": "Foto3.jpeg",
-    "006": "Foto4.jpeg",
-    "007": "Foto5.jpeg",
-    "008": "Foto6.jpeg",
-    "009": "Foto7.jpeg",
-    "010": "Foto8.jpeg",
-    "011": "Foto9.jpeg"
+    "images": [
+        "Foto1.jpeg",
+        "Foto10.jpeg",
+        "Foto11.jpeg",
+        "Foto12.jpeg",
+        "Foto2.jpeg",
+        "Foto3.jpeg",
+        "Foto4.jpeg",
+        "Foto5.jpeg",
+        "Foto6.jpeg",
+        "Foto7.jpeg",
+        "Foto8.jpeg",
+        "Foto9.jpeg"
+    ]
 }
