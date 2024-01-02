@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const PolaroidPhotoContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
-    scroll-snap-align: center;
-`;
-
 export const PolaroidImage = styled.div`
     aspect-ratio: 1/1;
     height: 250px;
@@ -15,12 +7,14 @@ export const PolaroidImage = styled.div`
     border-bottom: 80px solid white;
     background-image: url(${props => props.$img});
     background-size: cover;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
     transition: all .2s ease;
+    filter: brightness(0.6);
 
-    &.true {
+    &.selected {
         z-index: 998;
         transform: scale(1.5) rotateZ(${props => props.$angle}deg);
+        filter: brightness(1);
     }
 
     @media (max-width: 768px) {
