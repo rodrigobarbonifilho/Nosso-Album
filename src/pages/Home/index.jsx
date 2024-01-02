@@ -13,7 +13,7 @@ export default function Home() {
                     const photoWidth = window.innerWidth > 768 ? 266 : 192;
                     const offSet =
                         document.getElementById("CarrouselJs").scrollLeft;
-                    setImageSelected(Math.floor(offSet / 266));
+                    setImageSelected(Math.floor(offSet / photoWidth));
                 }}
             >
                 {json.images.map((image, index) => {
